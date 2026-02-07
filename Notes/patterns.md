@@ -141,3 +141,8 @@
 - easy
 - string 內建函數 find() 就直接完成
 - 其他方式如 KMP（Knuth–Morris–Prat）
+
+### 128. Longest Consecutive Sequence
+- medium, hash table
+- sort() 跟 set() 可快速將輸入整理成獨一且排序
+- 迴圈從1開始，與前一筆連續即更新當時連續數量
