@@ -146,3 +146,7 @@
 - medium, hash table
 - sort() 跟 set() 可快速將輸入整理成獨一且排序
 - 迴圈從1開始，與前一筆連續即更新當時連續數量
+
+### 54. Spiral Matrix
+- Medium, Matrix
+- 只有四個方向，且只會在最外圍，定義邊界(top down left right)，照四個順序走訪和再收縮邊界
