@@ -150,3 +150,7 @@
 ### 54. Spiral Matrix
 - Medium, Matrix
 - 只有四個方向，且只會在最外圍，定義邊界(top down left right)，照四個順序走訪和再收縮邊界
+
+### 219. Contains Duplicate II
+- easy, hash table
+- 除了達成距離 < k條件return，每次迭代都更新 hash table(dict) 該數字的位置
