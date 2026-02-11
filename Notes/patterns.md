@@ -159,3 +159,7 @@
 - medium, stack
 - 理解 RPN ，就是在運算子出現的時候去抓前兩個stack中的運算子數字
 - python真除法 ’//’ 會往下取，-0.5會取為-1，可用整除法’/’取整數即可符合題意
+
+### 48. Rotate Image
+- medium, matrix
+- 較難在畫出來理解這個rotate原理: transpose+reverse
