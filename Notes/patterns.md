@@ -163,3 +163,8 @@
 ### 48. Rotate Image
 - medium, matrix
 - 較難在畫出來理解這個rotate原理: transpose+reverse
+
+### 73. Set Matrix Zeroes
+- medium, matrix
+- TC: O(M*N), SC:O(M+N)兩次traversal，一次紀錄歸零的row&col，一次更新
+- Constant Space 是可以的：把歸零紀錄記在col的首位跟row的首位，更新時都檢查首位
