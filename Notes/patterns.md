@@ -168,3 +168,8 @@
 - medium, matrix
 - TC: O(M*N), SC:O(M+N)兩次traversal，一次紀錄歸零的row&col，一次更新
 - Constant Space 是可以的：把歸零紀錄記在col的首位跟row的首位，更新時都檢查首位
+
+### 289. Game of Life
+- medium, matrix
+- 更新時使用除了0,1的狀態，就可以避免直接蓋掉原先存活的資訊，像是2,3 或是二個位元
+- TC O(M*N) SC O(1)
