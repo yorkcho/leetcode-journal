@@ -173,3 +173,8 @@
 - medium, matrix
 - 更新時使用除了0,1的狀態，就可以避免直接蓋掉原先存活的資訊，像是2,3 或是二個位元
 - TC O(M*N) SC O(1)
+
+### 57. Insert Interval
+- medium, interval
+- 1.insert interval的判定 2.merge interval的min max
+- 最後新增，再sort，可直接避免插錯地方，以及應付空的Interval List情形。
