@@ -178,3 +178,8 @@
 - medium, interval
 - 1.insert interval的判定 2.merge interval的min max
 - 最後新增，再sort，可直接避免插錯地方，以及應付空的Interval List情形。
+
+### 452. Minimum Number of Arrows to Burst Balloons
+- Medium, interval
+- 將所有 interval 互相合併，最後剩下的就是 Minimum Arrows 數量
+- 與merged intervals稍微不同之處在於，這題的merge是要取最小範圍。像inner join，而不是outerjoin
