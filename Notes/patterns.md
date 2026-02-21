@@ -187,3 +187,8 @@
 ### 92.Reverse Linked List II
 - Medium, Linked List
 - 延伸Reverse Linked List I ，先移動到left再開始反轉
+
+### 19. Remove Nth Node From End of List
+- Medium, Linked List
+- 要刪除倒數第N，就要用雙指標，fast先過N個節點，slow再一起走
+- 有例外，當fast走到none，代表是要刪掉head頭節點
