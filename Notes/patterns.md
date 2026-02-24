@@ -192,3 +192,9 @@
 - Medium, Linked List
 - 要刪除倒數第N，就要用雙指標，fast先過N個節點，slow再一起走
 - 有例外，當fast走到none，代表是要刪掉head頭節點
+
+### 82. Remove Duplicates from Sorted List II
+
+- Medium, Linked List
+- 新增dummy在head之前，用prev指向「已確認保留的串列尾巴/最後安全節點」。
+- 遇到重複時，要用prev.next。如果重複段一開始就發生（例如 head 開頭就是重複），此時 prev 仍是 dummy
